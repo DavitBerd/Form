@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="">
+        <div class="div">
+          <label for="" class="label">Username</label>
+          <input type="text" placeholder="Enter Username" class="input" />
+        </div>
+        <div class="div">
+          <label for="" class="label">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="input"
+            maxlength="12"
+            minlength="4"
+          />
+
+          <label for="" class="label2">
+            Your Password is between 4 and 12 characters
+          </label>
+        </div>
+        <div class="div">
+          <label for="" class="label">Input Text Label</label>
+          <img src="icons/icon.png" alt="icon" />
+          <input
+            type="text"
+            placeholder="Input Text"
+            class="error"
+            value="Typing |"
+            readonly
+          />
+          <label for="" class="ErrorLabel"
+            >Error message informing me of a problem</label
+          >
+        </div>
+        <div class="Radio">
+          <div class="test1">
+            <input type="checkbox" id="checkbox" class="test" />
+            <label for="checkbox">Remember Me</label>
+          </div>
+          <div class="test1">
+            <input type="radio" id="radio1" name="Radio" class="test" />
+            <label for="radio1">Radiot Selection1</label>
+          </div>
+          <div class="test1">
+            <input type="radio" id="radio2" name="Radio" class="test" />
+            <label for="radio2">Radiot Selection2</label>
+          </div>
+          <div class="test1">
+            <input type="radio" id="radio3" name="Radio" class="test" />
+            <label for="radio3">Radiot Selection3</label>
+          </div>
+        </div>
+        <select name="Dropdown" id="Dropdown">
+          <option value="1">Dropdown Option</option>
+          <option value="2">Dropdown Option2</option>
+          <option value="3">Dropdown Option3</option>
+        </select>
+        <div class="buttons">
+          <div><input type="button" value="Cancel" class="b1 bfont" /></div>
+          <input type="submit" value="Next" class="b2 bfont" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

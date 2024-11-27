@@ -1,0 +1,137 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(fonts/Noto_Sans/NotoSans-VariableFont_wdth_wght.ttf);
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #e4defe;
+  margin: 0px;
+  font-family: NotoSans;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 760px;
+  padding: 30px;
+  background-color: white;
+}
+img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 60px;
+  right: 1px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Radio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  color: #666666;
+}
+.label {
+  font-size: 12px;
+  color: #666666;
+  margin: 5px;
+}
+.label2 {
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.b1 {
+  width: 172px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #7a5cfa;
+  text-align: center;
+}
+.b2 {
+  width: 172px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #7a5cfa;
+  text-align: center;
+}
+.b1 {
+  background-color: white;
+  color: #7a5cfa;
+}
+.b2 {
+  background-color: #7a5cfa;
+  color: white;
+}
+select {
+  height: 56px;
+  width: 100%;
+  padding: 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+option {
+  background: white;
+}
+.input {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin: 10px 0px 5px 0px;
+  padding-left: 10px;
+}
+.error {
+  width: 98%;
+  height: 56px;
+  border: 2px solid #eb5757;
+  border-radius: 8px;
+  margin: 10px 0px 5px 0px;
+  padding: 10px;
+}
+.ErrorLabel {
+  color: #eb5757;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+select:hover {
+  border: 2px solid #7a5cfa;
+}
+.test1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.test {
+  width: 20px;
+  height: 20px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+optgroup{
+    border: 2px solid black;
+}
