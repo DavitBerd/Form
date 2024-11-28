@@ -132,6 +132,3 @@ select:hover {
   flex-direction: column;
   position: relative;
 }
-optgroup{
-    border: 2px solid black;
-}
